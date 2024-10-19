@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <form action="../Templates/Template1.html" onsubmit="return validation()">
+        <div class="signIn">
+            <h1><b>Sign in</b></h1>
+            <p>or use your account</p>
+            <input type="email" placeholder="Email" id="email">
+            <input type="password" placeholder="Password" style="margin-bottom: 1.5pc;" id="password"><br>
+            <a href="#">Forgot your password?</a><br>
+            <button><b>Sign In</b></button>
+        </div>
+      </form>
+        <div class="intro">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and start journey with us</p>
+            <button>SIGN UP</button>
+        </div>
+    </div>
+</body>
+<script>
+    function validation(){
+        let x = document.getElementById('email').value;
+        let y = document.getElementById('password').value;
+        if(x == ""){
+            alert("Enter valid email")
+            return false;
+        }
+        else if(y == ""){
+            alert("Enter a Password");
+            return false;
+        }
+        else{
+            return true;
+        }
+        
+
+    }
+</script>
+
+</html

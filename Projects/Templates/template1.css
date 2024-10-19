@@ -1,0 +1,156 @@
+body{
+   overflow: auto;
+
+}
+.Header{
+    background: rgba(0, 0, 0, 0.4) url('https://preview.colorlib.com/theme/passport/images/hero_1.jpg.webp');
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position-y: -108px ;
+    background-position-x: -16px ;
+    background-size: fill;
+    margin-top: -1.09%;
+    height: 100vh;
+}
+
+.cnt a{
+    float: right;
+    border: 2px solid rgb(116, 114, 114);
+    border-radius: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1pc;
+    padding: 1%;
+    padding-top: 0.35%;
+    padding-bottom: 0.4%;
+    margin: 1.67pc 3.4pc;
+    transition-duration: 0.2s;
+}
+.cnt a:hover{
+    background-color: #fc8621;
+    border-color: #fc8621;
+}
+
+.main li{
+    float: left;
+    list-style-type: none;
+    padding: 1%;
+    position: relative;
+    margin-top: 1.45pc;
+
+}
+.main li a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main li:hover .drp li{
+    opacity: 1;
+    margin-top: 1pc;
+}
+.main li a:hover{
+   opacity: 1;
+}
+.main li:hover .submenu li{
+    opacity: 0;
+}
+
+.drp li{
+    
+    background-color: white;
+    position: absolute;
+    margin-top: 5pc;
+    padding: 1pc;
+    opacity: 0;
+    width: 10pc;
+    margin-left: -1.98pc;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+.drp li:hover .submenu li{
+    opacity: 1;
+}
+.drp li a{
+    color: black;
+    opacity: 1;
+
+}
+.drp li a:hover{
+    color: #fc8621;
+}
+.submenu li a:hover{
+    color: #fc8621;
+}
+.submenu li{
+    width: 5pc;
+    opacity: 0;
+    position: absolute;
+    margin-left: 8.5pc;
+    margin-top: -10pc;
+}
+.cnt{
+    list-style-type: none;
+}
+.sec-2 .text p{
+    color: white;
+    font-size: 4.1pc;
+    font-family: poppins;
+    display: inline-block;
+    text-align: left;
+    margin-left: -32pc;
+    margin-top: 12.4pc;
+}
+.wth a img{
+    width: 3.8pc;
+    height: 3.7pc;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0px 0px 0px 3.9pc;
+}
+.wth p{
+    color: white;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -3%;
+    margin-left: 9.1%;
+}
+.loc i{
+    border: 1px solid transparent;
+    padding: 4%;
+    border-radius: 100%;
+    background-color: rgb(30, 48, 48);
+}
+.loc{
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 6%;
+    color: white;
+}
+.loc p{
+    margin: -34px 3.5pc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p
+.custom-hover {
+    background-color: transparent;
+    transition: background-color 0.3s;
+    }
+
+.custom-hover:hover {
+    background-color: #fc8621; 
+    color: white;
+}
+.custom-hover1 a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.custom-hover1 p{
+    color: rgb(88, 88, 88);
+}
+.custom-hover2 a:hover{
+    background-color: white;
+    color: #fc8621;
+}

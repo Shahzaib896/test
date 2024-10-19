@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        video{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <video src="https://www.w3schools.com/html/movie.mp4" controls></video>
+    <video src="https://www.w3schools.com/html/movie.mp4" autoplay></video>
+    <video src="https://www.w3schools.com/html/movie.mp4" autoplay muted></video>
+    <div class="videobyjs">
+    <video src="https://www.w3schools.com/html/movie.mp4" id="vd"></video>
+    <button onclick="playpause()">Play/Pause</button>
+    <button onclick="Big()">Big</button>
+    <button onclick="small()">small</button>
+    </div>
+</body>
+</html>
+<script> 
+        let video1 = document.getElementById('vd');
+    function playpause(){
+        if(video1.paused){
+            video1.play();
+        }
+        else{
+            video1.pause();
+        }
+    }
+    function Big(){
+        video1.width= 560;
+    }
+    function small(){
+        video1.width= 240;
+    }
+</script>

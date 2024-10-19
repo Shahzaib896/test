@@ -1,0 +1,44 @@
+<!-- Find Grdes by if-else-if-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Even Or Odd
+    <script>
+        let marks=prompt("Enter your marks and get grades:");
+        let grade;
+        if(marks>=80 && marks<=100){
+            grade="A+";
+            alert("Grade = "+grade);
+        }
+        else if(marks>=70 && marks<80){
+            grade="B";
+            alert("Grade = "+grade);
+        }
+        else if(marks>=60 && marks<70){
+            grade="C";
+            alert("Grade = "+grade);
+        }
+        else if(marks>=40 && marks<60){
+            grade="D";
+            alert("Grade = "+grade);
+        }
+        else if(marks>=33 && marks<50){
+            grade="E";
+            alert("Grade = "+grade);
+        }
+        else if(marks<33 && marks>=0){
+            grade="F";
+            alert("Grade = "+grade);
+        }
+        else{
+            alert("Invalid marks");
+        }
+        console.log("Your marks are "+marks+" grade is "+grade);
+    </script>
+</body>
+</html>

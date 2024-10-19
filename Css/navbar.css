@@ -1,0 +1,41 @@
+body{
+    background-color: blue;
+}
+.main li{
+    float: left;
+    list-style-type: none;
+    background-color: black;
+    padding: 1%;
+    position: relative;
+}
+.main li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.main li:hover .drp li{
+    opacity: 1;
+}
+.main li:hover .submenu li{
+    opacity: 0;
+}
+.drp li{
+    
+    background-color: white;
+    position: absolute;
+    margin-top: 1pc;
+    padding: 1pc;
+    opacity: 0;
+}
+.drp li a{
+    color: black;
+
+}
+.drp li:hover .submenu li{
+    opacity: 1;
+}
+.submenu li{
+    margin-left: 1.5pc;
+    opacity: 0;
+    position: absolute;
+}

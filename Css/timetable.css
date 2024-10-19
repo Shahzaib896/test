@@ -1,0 +1,18 @@
+h1{
+    background-color: cadetblue;
+    text-align: center;
+}
+body{
+    background-color:rgb(250, 249, 247);
+}
+th{
+    width: 5px;
+    background-color:grey;
+}
+td{
+    width: 26vh;
+    text-align: center;
+}
+table{
+    height: 400%;
+}

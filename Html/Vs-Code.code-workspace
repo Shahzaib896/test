@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "Vs-Code",
+			"path": ".."
+		},
+		{
+			"name": "Html",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Vs-Code",
+		"liveServer.settings.port": 5501
+	}
+}

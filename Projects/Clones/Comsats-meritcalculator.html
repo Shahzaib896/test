@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://admissions.comsats.edu.pk/Content/images/comsats.png">
+    <link rel="stylesheet" href="comsats-meritcalculator.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUI Admission System</title>
+</head>
+<body>
+</body>
+ <div class="Header1">
+    <img src="https://admissions.comsats.edu.pk/Content/images/comsats.png" alt="" class="logo">
+    <p class="heading" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">ONLINE <b>ADMISSION</b> SYSTEM</p>
+ </div>
+ <div class="navbar">
+    <nav>
+        <a href="https://admissions.comsats.edu.pk/Home/Index">Home</a>
+        <a href="https://admissions.comsats.edu.pk/Home/AboutComsats">Why Cui?</a>
+        <a href="https://admissions.comsats.edu.pk/Home/GetCandidateDetails#">Programs</a>
+        <a href="http://cuonline.comsats.edu.pk/publicaccess/">Scheme of studies</a>
+        <a href="https://admissions.comsats.edu.pk/Home/GetCandidateDetails#">Prospectus</a>
+        <a href="https://ww2.comsats.edu.pk/scholarships/">Scholarships</a>
+        <a href="https://admissions.comsats.edu.pk/Home/GetCandidateDetails#">Downloads</a>
+        <a href="https://admissions.comsats.edu.pk/Home/ContactUs">Contact Us</a>
+        <button onclick="document.location='https://admissions.comsats.edu.pk:8087/'" style="margin-left: 5%;">Phd Fully Funded Admissions</button>   
+        <button onclick="document.location='https://international.admissions.comsats.edu.pk/'">International Students</button>   
+        <button onclick="document.location='https://admissions.comsats.edu.pk/Home/GetCandidateDetails'">Merit Calculator</button>   
+    </nav>
+ </div>
+ <div class="main">
+    <h1>COMSATS Merit Calculator</h1>
+        <div class="table">
+          <table>
+            <tr class="tr1">
+                <th>Examination</th>
+                <th>Total Marks</th>
+                <th>Marks Obtained</th>
+            </tr>
+            <tr>
+                <th>SSC</th>
+                <td><input type="number" id="ssc-total" placeholder="1100"></td>
+                <td><input type="number" id="ssc-obt"></td>
+            </tr>
+            <tr>
+                <th>HSSC</th>
+                <td><input type="number" id="hssc-total" placeholder="1200"></td>
+                <td><input type="number" id="hssc-obt" max="1200" min="0"></td>
+            </tr>
+            <tr>
+                <th>NTS</th>
+                <td><input type="number" id="nts-total"></td>
+                <td><input type="number" id="nts-obt" ></td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <button onclick="merit()">Submit</button>
+                </td>
+            </tr>
+          </table>
+        <h3>Please Note:</h3>
+
+            <p>* HSSC Result Awaiting candidates will submit their First Year Marks. <br><br>* For A-Level Result Awaiting candidates. Their O-Level Equivalent marks will be considered 50 %.<br><br>* Programs under Departments (Architecture / Art & Design) will have interview and merit will be calculated by different formula.
+            </p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="logo-section">
+                <img src="https://admissions.comsats.edu.pk/Content/images/comsats.png" alt="Comsats University Logo" class="footer-logo">
+                <p>COMSATS UNIVERSITY <br>ISLAMABAD</p>
+            </div>
+            
+            <div class="explore-section">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="https://admissions.comsats.edu.pk/Content/images/admission_advertisement.jpg">Admissions Advertisement</a></li>
+                    <li><a href="https://admissions.comsats.edu.pk/Content/images/admission_advertisement_programs.jpg">Fall 2024 Programs</a></li>
+                    <li><a href="https://ww2.comsats.edu.pk/scholarships/">Scholarships</a></li>
+                    <li><a href="file:///C:/Users/shahz_1chp5dd/Documents/Vs-Code/Html/clone/Comsats-meritcalculator.html#">Faculties & Departments</a></li>
+                    <li><a href="file:///C:/Users/shahz_1chp5dd/Documents/Vs-Code/Html/clone/Comsats-meritcalculator.html#">Graduates</a></li>
+                    <li><a href="file:///C:/Users/shahz_1chp5dd/Documents/Vs-Code/Html/clone/Comsats-meritcalculator.html#">International Admissions</a></li>
+                </ul>
+            </div>
+            
+            <div class="address-section">
+                <h3>Address</h3>
+                <p>Park Road, Tarlai Kalan</p>
+                <p>Islamabad 45550, PAKISTAN.</p>
+            </div>
+            
+            <div class="join-section">
+                <h3>Join</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="	https://admissions.comsats.edu.pk/content/images/newstyle/fb.png" alt="Facebook"></a>
+                    <a href="#"><img src="https://admissions.comsats.edu.pk/content/images/newstyle/tw.png" alt="Twitter"></a>
+                    <a href="#"><img src="https://admissions.comsats.edu.pk/content/images/newstyle/insta.png" alt="Instagram"></a>
+                    <a href="#"><img src="https://admissions.comsats.edu.pk/content/images/newstyle/youtube.png" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2022, All Rights Reserved</p>
+            <p>Developed by <a href="#">Cu-Online</a></p>
+        </div>
+    </footer>
+</div>    
+</body>
+<script src="comsats.js">
+</script>
+   </html>

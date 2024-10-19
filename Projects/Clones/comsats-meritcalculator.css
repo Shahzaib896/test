@@ -1,0 +1,275 @@
+
+.Header1
+{
+    background-color:rgb(78, 42, 132);
+    height: 23vh;
+    padding: 0%;
+    margin: -1%;
+    display: block;
+}
+.logo
+{
+    margin-top: 55px;
+    margin-left: 130px;
+    margin-bottom: 40px;
+    height: 13vh;
+    width: 110px;
+}
+
+.heading
+{
+    margin-top: -100px;
+    text-align: center;
+    color: white;   
+}
+
+.navbar
+{
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: -1%;
+    position: sticky;   
+    top: 0px;
+}
+.navbar a
+{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin: -3px;
+    margin-top: 11px;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 30px;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+.navbar a:hover
+{
+    background-color: grey;
+    height: 4.5vh;
+}
+.navbar button
+{
+    background-color: rgba(200, 27, 73, 0.963);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 7px;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-left: 10px;
+    border: 0px;
+    width: auto;
+}
+.navbar button:hover
+{
+    background-color: white;
+    color:  rgba(200, 27, 73, 0.963);
+    border-color:  rgba(200, 27, 73, 0.963);
+    border: 1.5px solid rgba(200, 27, 73, 0.963);
+
+}
+.main h1
+{
+    color: rgb(243, 156, 27);
+    font-family:sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+}
+.submit
+{
+    align-items: center;
+    margin-left: 190px;
+}
+.table
+{
+    margin-left: 140px;
+    width: 80%;
+    height: 30vh;
+    border: 3px SOLID black;
+    border-color: black;
+    background-color: rgb(78, 42, 132);
+    display: inline-block;
+    justify-content: center;
+}
+.table table tr
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.main .table table th, tr
+{
+    padding-left: 40px;
+    color:  rgb(255, 165, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main .table table .tr1
+{
+    border-bottom: 1px solid white;
+}
+.main
+{
+    background-image: url('	https://admissions.comsats.edu.pk/Content/images/bg11.png');
+    background-size: 105% 140vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+}
+table
+{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse; 
+    border-width: 10px;
+    align-content: center;
+}
+tr 
+{
+    border: 1px solid white;
+    padding: 8px;  
+    text-align: left; 
+}
+input
+{
+    width: 180px;
+    height: 3.5vh;
+}
+th, td
+{
+    text-align: center;
+    vertical-align: center;
+}
+.table h3
+{
+    color: rgb(255, 165, 0); 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 50;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.submit{
+    color: rgb(255, 165, 0);
+    margin-left: 5pc;
+    width: 5pc;
+    height: 4vh;
+}
+.main
+{
+    margin-top: 25px;
+    list-style-type: disc;
+}
+.main p
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100px;
+    font-size: 13px;
+    margin-bottom: 15px;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #4b176f; /* Purple background */
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.logo-section p {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -20px;
+    text-align: center;
+}
+
+.join-section{
+    margin-right: 35%;
+}
+
+.explore-section h3,
+.address-section h3,
+.join-section h3 {
+    margin-bottom: 18px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    font-weight: 110;
+    color: rgb(209, 209, 209);
+}
+
+.explore-section ul {
+    list-style: none;
+}
+
+.explore-section ul li {
+    margin-bottom: 12px;
+    font-size: 14.5px;
+    border-bottom: 1px solid #402e7d;
+}
+.explore-section ul li a:hover{
+    color: rgb(90, 25, 243);
+}
+
+.explore-section ul li a {
+    color: rgb(209, 207, 207);
+    text-decoration: none;
+    margin-bottom: -3px;
+}
+
+.address-section p {
+    margin-bottom: 8px;
+    font-size: 14.5px;
+    color: rgb(221, 220, 220);
+}
+
+.join-section .social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.join-section .social-icons img {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+
+.footer-bottom a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    margin: 5px;
+}

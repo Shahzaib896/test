@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="calculator.css"> 
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+<body>
+   <div class="calculator">
+
+    <div class="inputs">
+
+        <h6 id="holder" style="height: 0.7pc;margin-top: 0; opacity: 0;"></h6>
+
+        <h6 id="opInput" style="height: 1pc; margin-top: -1.6pc; opacity: 0;"></h6>
+
+        <h1 id="numInput" style="float: right; margin-top: -15px;"></h1>
+
+    </div>
+    <div class="userPad">
+
+        <button onclick="op('%')">%</button>
+
+        <button onclick="">CE</button>
+
+        <button onclick="clearAll()">C</button>
+
+        <button onclick="">⌫</button>
+
+        <button onclick="oneDividedby()"><sup>1</sup>/x</button>
+
+        <button onclick="sqr()">x<sup>2</sup></button>
+
+        <button onclick="squareRoot()"><sup>2</sup>√x</button>
+
+        <button onclick="op('/')">÷</button>
+
+        <button onclick="numPad('7')">7</button>
+
+        <button onclick="numPad('8')">8</button>
+
+        <button onclick="numPad('9')">9</button>
+
+        <button onclick="op('x')">×</button>
+
+        <button onclick="numPad('4')">4</button>
+
+        <button onclick="numPad('5')">5</button>
+
+        <button onclick="numPad('6')">6</button>
+
+        <button onclick="op('-')">-</button>
+
+        <button onclick="numPad('1')">1</button>
+
+        <button onclick="numPad('2')">2</button>
+
+        <button onclick="numPad('3')">3</button>
+
+        <button onclick="op('+')">+</button>
+
+        <button onclick="minus()">+/-</button>
+
+        <button onclick="numPad('0')">0</button>
+
+        <button onclick="">.</button>
+
+        <button onclick="eqBtn()" style="background-color: rgba(227, 78, 13, 0.925);">=</button>
+
+    </div>
+   </div>
+   <script src="calculator.js"></script>
+</body>
+</html>
